@@ -47,7 +47,7 @@ the results of the sim.printResults() should be an output string that looks like
 Simulation of 2 dice tossed for 1000000 times.
 ***
 
- 2 :    27917: 0.03 **
+ 2 :    27917: 0.03 ** 
  3 :    55422: 0.06 *****
  4 :    83457: 0.08 ********
  5 :   110961: 0.11 ***********
