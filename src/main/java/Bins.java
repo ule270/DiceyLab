@@ -16,11 +16,13 @@ public class Bins {
         }
     }
     public Integer numberOfResults(Integer rollResult) {
+
         return numberOfOccurrences.get(rollResult);
     }
     public void incrementBin(Integer rollResult){
-       numberOfOccurrences.put(rollResult, numberOfResults(rollResult)+1);
+        numberOfOccurrences.put(rollResult, numberOfResults(rollResult)+1);
     }
+
 }
 
 

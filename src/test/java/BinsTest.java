@@ -30,4 +30,5 @@ public class BinsTest {
 //        then
         Assert.assertEquals(expected, actual);
     }
+
 }
