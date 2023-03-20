@@ -19,9 +19,11 @@ public class Bins {
 
         return numberOfOccurrences.get(rollResult);
     }
+
     public void incrementBin(Integer rollResult){
         numberOfOccurrences.put(rollResult, numberOfResults(rollResult)+1);
     }
+
 
 }
 
